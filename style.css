@@ -1,0 +1,35 @@
+.nav{
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    box-shadow: 4px 4px black;
+}
+.nav-title{
+    margin-left: 15px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
